@@ -73,8 +73,8 @@ int main() {
     long long comp2 = 0, inter2 = 0;
     double tiempo1 = 0.0, tiempo2 = 0.0;
 
-    InsertionSort(A, n, comp1, inter1, tiempo1);
-    ShellSort(B, n, comp2, inter2, tiempo2);
+    InsertionSort(A, n, inter1, comp1, tiempo1);
+    ShellSort(B, n, inter2, comp2, tiempo2);
     
     cout << "Arreglo Base: ";
     for (int i = 0; i < n; i++) {
