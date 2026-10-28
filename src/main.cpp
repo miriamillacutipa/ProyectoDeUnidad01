@@ -1,5 +1,4 @@
 #include "ordenamientos.hpp"
-
 #include <iostream>
 #include <fstream>
 #ifdef _WIN32
