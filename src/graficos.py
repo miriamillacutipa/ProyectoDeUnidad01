@@ -1,15 +1,3 @@
-"""Analiza los CSV de Insercion y Shellsort.
-
-Instalar: python -m pip install matplotlib
-Seleccionar archivos: python analizar_ordenamientos.py
-Analizar una carpeta: python analizar_ordenamientos.py --carpeta resultados
-Archivos concretos: python analizar_ordenamientos.py archivo1.csv archivo2.csv
-
-Todas las estadisticas se calculan sobre tiempo_ms, agrupando por
-algoritmo, patron y n. La desviacion estandar es muestral (divisor N-1).
-Solo deben combinarse pruebas del mismo equipo y configuracion.
-"""
-
 import argparse
 import csv
 import hashlib
@@ -24,7 +12,6 @@ from pathlib import Path
 
 
 def seleccionar_archivos():
-    """Abre el selector de Windows para seleccionar varios CSV."""
     try:
         import tkinter as tk
         from tkinter import filedialog
@@ -158,7 +145,6 @@ def crear_visuales(resumen, salida):
         fig.savefig(salida / ("n_vs_tiempo_" + sufijo + ".png"), dpi=200)
         plt.close(fig)
 
-        # Tabla como imagen para insertar directamente en Word.
         def numero(valor):
             return "N/D" if valor is None else f"{valor:.6f}"
         celdas = [[nombres.get(f["algoritmo"], f["algoritmo"]), str(f["n"]), str(f["mediciones"]),
