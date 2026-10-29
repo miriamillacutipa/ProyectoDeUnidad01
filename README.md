@@ -181,7 +181,7 @@ El video presenta el funcionamiento del programa, la implementación de los algo
 
 ## 11. Identificador del commit final
 
-\- Commit correspondiente a la versión final: subiendo ultima actualización
+\- Commit correspondiente a la versión final: subiendo ultima actualización del proyecto
 
 ## 12. Estructura del repositorio
 
