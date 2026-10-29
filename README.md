@@ -174,14 +174,14 @@ Shellsort resulta más conveniente en varios escenarios con grandes cantidades d
 
 ## 10. Video de demostración
 
-- Enlace de YouTube: 
+- Enlace de YouTube: https://youtu.be/LTH4TvSmp38?si=7P1dUX3O5V3LEfcl
 - Visibilidad: No listado.
 
 El video presenta el funcionamiento del programa, la implementación de los algoritmos, la ejecución de las pruebas, los archivos CSV y el análisis de los resultados obtenidos.
 
 ## 11. Identificador del commit final
 
-\- Commit correspondiente a la versión final: 
+\- Commit correspondiente a la versión final: subiendo ultima actualización
 
 ## 12. Estructura del repositorio
 
