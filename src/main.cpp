@@ -1,5 +1,4 @@
-#include "cabecera.hpp"
-
+#include "./cabecera.hpp"
 #include <iostream>
 #include <fstream>
 #ifdef _WIN32
@@ -89,14 +88,14 @@ int main() {
     int n = TAMANOS[opcionCantidad - 1];
 
 #ifdef _WIN32
-    _mkdir("pruebasalgoritmo");
+    _mkdir("csvalgoritmos");
 #else
-    mkdir("pruebasalgoritmo", 0755);
+    mkdir("csvalgoritmos", 0755);
 #endif
     int numero = 1;
     string ruta;
     do {
-        ruta = "pruebasalgoritmo/prueba_" + to_string(numero++) + ".csv";
+        ruta = "csvalgoritmos/csvalgoritmos_" + to_string(numero++) + ".csv";
     } while (ifstream(ruta.c_str()).good());
     ofstream csv(ruta.c_str());
     if (!csv) {
