@@ -1,4 +1,4 @@
-#include "./src/cabecera.hpp"
+#include "../src/cabecera.hpp"
 #include <iostream>
 #include <fstream>
 #ifdef _WIN32
